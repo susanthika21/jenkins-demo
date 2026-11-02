@@ -1,4 +1,1 @@
-
-hi my name is susan
-
-# jenkins-demo
+# A simple jenkins pipeline to verify if the docker slave configuration is working as expected.
