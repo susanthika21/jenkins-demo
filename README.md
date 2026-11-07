@@ -16,7 +16,7 @@ This project sets up an automated pipeline that pulls code from GitHub, builds a
 * **Webhooks:** GitHub Webhook integration for automatic build triggering
 
 ---
-1.
+
 ## ⚙️ Prerequisites
 Before running this project locally or through Jenkins, make sure you have the following installed:
 * [Docker](https://docs.docker.com/get-docker/)
@@ -36,14 +36,17 @@ Before running this project locally or through Jenkins, make sure you have the f
   docker build -t jenkins-docker-demo .
   docker run -d -p 5000:5000 jenkins-docker-demo
   
-🔄 Jenkins CI/CD Pipeline Workflow
-Code Commit: Developer pushes code changes to the main branch on GitHub.
+## 🔄 Jenkins CI/CD Pipeline Workflow
 
-Webhook Trigger: GitHub sends an automated payload notification via webhook to your local Jenkins server.
+**Code Commit:** Developer pushes code changes to the main branch on GitHub.
 
-Build Stage: Jenkins clones the repository and builds a fresh Docker container image.
+**Webhook Trigger:** GitHub sends an automated payload notification via webhook to your local Jenkins server.
 
-Test & Deploy Stage: Jenkins runs verification tasks and spins up the container environment automatically.
+**Build Stage:** Jenkins clones the repository and builds a fresh Docker container image.
 
-🤝 Author
-Susanthika - GitHub Profile
+**Test & Deploy Stage:** Jenkins runs verification tasks and spins up the container environment automatically.
+
+---
+
+## 🤝 Author
+* **Susanthika** - [GitHub Profile](https://github.com/susanthika21)
